@@ -1,30 +1,49 @@
 nav{
     background: rgba(15, 98, 200, 0.47);
     border-radius: 0vb 0vb 3vb 3vb;
+    width: auto;
+    height: auto;
 }
 a{
     color: rgb(211, 224, 241);
     text-decoration: none;
     font-size: 20px;
-    
+    margin: 0px 0px 0px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .barra{
-    display: inline-block;
+    display:inline-block;
     padding-right: 0px;
-    text-decoration: none;
 
 }
 
 li {
-    display: inline-block;
-
-    margin: 10px 20px 10px 0px;
+    display: inline-block;    
+    margin: 0px 0px 0px 0px;
+    padding: 15px;
+    
 }
 
-li:hover{
-    color: rgb(73, 73, 73);
+a:hover{
+    color: rgb(208, 232, 255);
+    padding: 10px;
+    border-radius: 14px;
+    background-color: rgba(12, 83, 235, 0.611);
     
+}
+li a {
+    padding: 10px;
+    /* Padding constante */
+    border: 2px solid transparent;
+    /* Border constante, invisible en estado normal */
+}
+
+li a:hover {
+    color: rgb(208, 232, 255);
+    background-color: rgba(12, 83, 235, 0.611);
+    border: 2px solid rgba(12, 83, 235, 0.611);
+    /* Mismo ancho de border */
+    border-radius: 14px;
 }
 body{
     background-color: rgba(19, 111, 192, 0.558);
@@ -34,20 +53,23 @@ body{
 }
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 70px;
-    padding-left:150px;
-    padding-top: 10px;
+    font-size: 75px;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top: 75px;
+    
     color: rgb(211, 224, 241);
     background: rgba(15, 98, 200, 0.47);
     width: 850px;
-    height: 100px;
+    height: 150px;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 input{
     color: black;
+    
     width: 150px;
-    height: 20px;
+    height: 30px;
     border-radius: 5px;
     border: transparent;
     background-color: rgba(204, 223, 239, 0.638);
@@ -57,7 +79,8 @@ input{
     
 }
 ul{
-    margin-right: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 h2{
     /*falta usar estas propiedades*/
@@ -98,12 +121,27 @@ img{
     border-radius: 20px;
 }
 footer{
-    background: rgba(9, 49, 98, 0.47);
-    margin-top: 50px;
-    padding-top: 5px;
-    font-size: 20px;
+    background: rgba(32, 88, 157, 0.47);
+    margin-top: 40px;
+
+    width: auto;
+    height: auto;
+    font-size: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    height: 100px;
+}
+.ul_left{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+.li_left{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+form{
+    margin-left: 450px;
 }
 
 
